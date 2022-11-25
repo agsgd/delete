@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: default
+  vmimage: 'letest ubuntu'
 steps:
 - task: Maven@3
   inputs:
